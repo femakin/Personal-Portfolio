@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  background-color: #f6f5f5;
+  
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header{
+height: 65px;
+width: 100%;
+background-color: grey;
+/* background-color: rgba(34, 49, 52, 0.9);  */
+ position :fixed;
+ top: 0;
+ z-index: 10;
+}
+.logo{
+	width: 124px;
+	margin-top: 20px;
+}
+.header-left {
+  float: left;
+}
+.header-right a {
+line-height: 65px;
+padding: 0 25px;
+color: white;
+display: block;
+float: left;
+transition: all 0.5s;
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header-right {
+	display: none;
+  float: right;
+  margin-right: -25px;
+}
+.text-box{
+	margin-top: 90px;
+}
+.text-box p:nth-child(1){
+font-family: calibri;
+font-weight: bold;
+color: #6d6d6d;
+font-size: 22px;
+}
+.text-box p:nth-child(2){
+
+font-family: calibri;
+font-weight: bold;
+letter-spacing: 1px;
+color: #1a1a1a;
+font-size: 30px;
+
+	}
+.text-box p:nth-child(3){
+
+font-family: myriad pro regular;
+color: #403e3e;
+font-size: 30px;
+line-height: 24px;
+margin-bottom: -10px;
+}
+
+
+.text-box p:nth-child(4){
+line-height: 10px;
+}
+.text-box p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+.text-box{
+	position: absolute;
+	left: 20%;
+	top: 12%;
+
+}
+.text-box input{
+	width: 100px;
+	height: 20px;
+	border-radius: 10px;
+	font-family: calibri;
+font-weight: bold;
+font-size: 14px;
+margin: 0px 10px;
+}
+.cv{
+	background-color: #0b0b0b;
+	color: #FFFFFF;
+	border: none;
+}
+.Hire{
+	border: 2px solid #373636;
+	color: #373636;
+}
+.image{
+	height: 400px;
+	position: absolute;
+	left: 60%;
+	bottom: 0px;
+	
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Change the display property to none */
+ display:  block
+}
+
+
+
+@media(max-width: 750px){
+  body{
+  	width: 100%
+  	background-color: yellow;
+  }
+
+
+/* Add CSS for header-right 
+  .header-right{
+    display: none;
+  }
+  
+  /* Add CSS for menu-icon 
+  .menu-icon{
+    display:block;
+  }  */
+
+
+
+
+  }
